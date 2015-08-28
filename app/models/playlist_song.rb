@@ -1,5 +1,4 @@
 gem 'rspotify'
-gem 'awesome_print'
 
 class PlaylistSong < ActiveRecord::Base
 	belongs_to :playlist
