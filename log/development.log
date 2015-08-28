@@ -1,0 +1,13 @@
+
+
+Started GET "/" for ::1 at 2015-08-28 09:51:25 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlaylistController#index as HTML
+  Rendered playlist/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1267ms (Views: 1257.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/basic.self-be56be7c5c8592a77dee972093b082070b80d91d00740ee9e01bd28a6ae8371c.css?body=1" for ::1 at 2015-08-28 09:51:27 +1000
+
+
+Started GET "/assets/hero_image.jpg" for ::1 at 2015-08-28 09:51:27 +1000
