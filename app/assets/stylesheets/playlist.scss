@@ -21,7 +21,7 @@ $main-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: url("hero_image.jpg");
     opacity: 0.8;
     background-size: cover;
-    height: 45em;
+    height: 50em;
   }
 
   .main-header {
@@ -365,15 +365,27 @@ $main-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
 // ABOUT PAGE================================
+
   .about-section {
+    width: 100%;
+    text-align: center;
+    // background: red;
+
+    img {
+      margin-top: 1em;
+      width: 100%;
+    }
+    
     hr {
       width: 10em;
       margin-top: 1em;
       margin-bottom: 2em;
     }
+
+
     // margin: 1em;
-    text-align: center;
-  }
+  
+}
 
 }
 

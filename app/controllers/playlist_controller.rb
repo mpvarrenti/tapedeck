@@ -94,6 +94,12 @@ class PlaylistController < ApplicationController
         def destroy
 		# get relevant playlist and destroy
                 @playlist = Playlist.find params[:id]
+                @songs = PlaylistSong.where(playlist_id: @playlist)
+                
+                for song in @songs
+                        song.destroy
+                end
+                
                 @playlist.destroy
                 redirect_to root_path
         end

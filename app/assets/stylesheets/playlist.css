@@ -6,7 +6,7 @@
     background: url("hero_image.jpg");
     opacity: 0.8;
     background-size: cover;
-    height: 45em; }
+    height: 50em; }
 
   .main-header .landing-title a {
     padding-left: 1.5em;
@@ -233,7 +233,11 @@
       outline: none; }
 
   .about-section {
+    width: 100%;
     text-align: center; }
+    .about-section img {
+      margin-top: 1em;
+      width: 100%; }
     .about-section hr {
       width: 10em;
       margin-top: 1em;
