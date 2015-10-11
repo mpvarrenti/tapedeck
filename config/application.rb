@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.assets.initialize_on_precompile = false
+
 
 module Tapedeck
   class Application < Rails::Application
@@ -24,5 +24,6 @@ module Tapedeck
 	#config.autoload_paths += Dir[Rails.root.join('app', 'models', '{**}')]
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.assets.initialize_on_precompile = false
   end
 end
