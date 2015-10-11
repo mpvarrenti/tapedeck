@@ -6063,3 +6063,49 @@ Processing by PlaylistController#show as HTML
   [1m[35m (0.2ms)[0m  COMMIT
   Rendered playlist/show.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 3463ms (Views: 34.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-12 09:34:54 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlaylistController#index as HTML
+  Rendered playlist/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 362ms (Views: 311.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/basic.self-be56be7c5c8592a77dee972093b082070b80d91d00740ee9e01bd28a6ae8371c.css?body=1" for ::1 at 2015-10-12 09:34:54 +1100
+
+
+Started GET "/assets/playlist.self-f6ceeecaa7dd961bf26ed1789a0023666b7e7312dc9829c9495408f05e9d2e65.css?body=1" for ::1 at 2015-10-12 09:34:54 +1100
+
+
+Started GET "/assets/style.self-a4b97c5642858b5522ec4380c31954d6ae609dcb53b72b2ab0667e098eb5040a.css?body=1" for ::1 at 2015-10-12 09:34:54 +1100
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for ::1 at 2015-10-12 09:34:54 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-12 09:34:55 +1100
+
+
+Started GET "/assets/playlist.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 09:34:55 +1100
+
+
+Started GET "/assets/hero_image.jpg" for ::1 at 2015-10-12 09:34:55 +1100
+
+
+Started GET "/playlist/new" for ::1 at 2015-10-12 09:34:57 +1100
+Processing by PlaylistController#new as HTML
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "playlists" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-10-11 22:34:57.544490"], ["updated_at", "2015-10-11 22:34:57.544490"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/playlist/78/edit
+Completed 302 Found in 32ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/playlist/78/edit" for ::1 at 2015-10-12 09:34:57 +1100
+Processing by PlaylistController#edit as HTML
+  Parameters: {"id"=>"78"}
+  [1m[36mPlaylist Load (1.3ms)[0m  [1mSELECT  "playlists".* FROM "playlists" WHERE "playlists"."id" = $1 LIMIT 1[0m  [["id", 78]]
+  [1m[35mPlaylistSong Load (2.3ms)[0m  SELECT "playlist_songs".* FROM "playlist_songs" WHERE "playlist_songs"."playlist_id" = $1  [["playlist_id", 78]]
+  Rendered playlist/edit.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 88ms (Views: 65.0ms | ActiveRecord: 4.6ms)
