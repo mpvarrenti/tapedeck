@@ -1,9 +1,8 @@
-@media screen and (min-width: 200px) {
+@media screen and (min-device-width: 200px) {
   body {
     margin: 0px; }
 
   .main-background {
-    background: image-url("hero_image-e9a194ef9a937499683eb8d430081a13ed36240586304131b89cc8af338339a6.jpg");
     opacity: 0.8;
     background-size: cover;
     height: 50em; }
@@ -37,7 +36,7 @@
     padding-bottom: 5em; }
     .engage-section .engage-title {
       text-align: center;
-      color: white;
+      color: #686868;
       font-size: 2.5em; }
     .engage-section .button_to {
       display: inline-block; }
@@ -47,13 +46,14 @@
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 1.5em;
         font-weight: bolder;
-        color: white;
+        color: #686868;
         background-color: rgba(255, 255, 255, 0.2);
         padding-top: 0.3em;
-        padding-bottom: 0.3em; }
+        padding-bottom: 0.3em;
+        border: solid #686868 2px; }
       .engage-section .button_to input:hover, .engage-section .button_to input:active {
         background-color: transparent;
-        border: solid white 5px;
+        border: solid #686868 5px;
         transition: 0.3s;
         pointer: cursor; }
 

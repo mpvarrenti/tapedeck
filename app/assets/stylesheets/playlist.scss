@@ -18,7 +18,7 @@ $main-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   .main-background {
-    background: image-url("hero_image-e9a194ef9a937499683eb8d430081a13ed36240586304131b89cc8af338339a6.jpg");
+    // background: image-url("hero_image-e9a194ef9a937499683eb8d430081a13ed36240586304131b89cc8af338339a6.jpg");
     opacity: 0.8;
     background-size: cover;
     height: 50em;
@@ -73,7 +73,7 @@ $main-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
     .engage-title {
       text-align: center;
-      color: white;
+      color: $dark-grey;
       font-size: 2.5em;
     }
         
@@ -86,15 +86,16 @@ $main-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-family: $main-font;
         font-size: 1.5em;
         font-weight: bolder;
-        color: white;
+        color: $dark-grey;
         background-color: rgba(255, 255, 255, 0.2);
         padding-top: 0.3em;
         padding-bottom: 0.3em;
+        border: solid $dark-grey 2px;
       }
 
       input:hover, input:active {
           background-color: rgba(0, 0, 0, 0);
-          border: solid white 5px;
+          border: solid $dark-grey 5px;
           transition: 0.3s;
           pointer: cursor;
       }
