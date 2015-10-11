@@ -7249,3 +7249,40 @@ Started GET "/assets/playlist.css.map" for ::1 at 2015-10-12 09:58:36 +1100
 
 
 Started GET "/assets/hero_image.jpg" for ::1 at 2015-10-12 09:58:36 +1100
+
+
+Started GET "/" for ::1 at 2015-10-12 10:16:12 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlaylistController#index as HTML
+  Rendered playlist/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 267ms (Views: 258.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/basic.self-be56be7c5c8592a77dee972093b082070b80d91d00740ee9e01bd28a6ae8371c.css?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/playlist.self-51dbd3749e54e5a6b4fce3305020c10630711259cf6231f8b1caaaf484a3285e.css?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/style.self-a4b97c5642858b5522ec4380c31954d6ae609dcb53b72b2ab0667e098eb5040a.css?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/playlist.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-12 10:16:13 +1100
+
+
+Started GET "/assets/playlist.css.map" for ::1 at 2015-10-12 10:16:13 +1100
