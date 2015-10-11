@@ -3,7 +3,7 @@
     margin: 0px; }
 
   .main-background {
-    background: url("hero_image.svg");
+    background: url("images/hero_image.svg");
     opacity: 0.8;
     background-size: cover;
     height: 50em; }
